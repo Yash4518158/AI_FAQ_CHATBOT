@@ -1,0 +1,8 @@
+What is the Antigravity Chatbot?
+The Antigravity Chatbot is an AI-powered conversational agent that leverages RAG (Retrieval-Augmented Generation) to answer user questions accurately.
+
+How does the knowledge base work?
+We ingest text, CSV, and PDF files. The content is chunked and stored in a PostgreSQL database using pgvector. When you ask a question, it retrieves the most relevant chunks.
+
+Is my data secure?
+Yes, all APIs are protected via JWT authentication, and passwords are hashed using argon2.

@@ -1,0 +1,4 @@
+Question,Answer
+"How do I reset my password?","To reset your password, click on the 'Forgot Password' link on the login page and follow the instructions sent to your email."
+"What is the maximum upload size for FAQs?","The default maximum upload size for FAQ documents is 10MB. This can be configured in the environment variables."
+"Does the system support PDF files?","Yes, the system natively extracts text from PDF documents using pypdf."
